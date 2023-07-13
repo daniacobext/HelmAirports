@@ -1,0 +1,27 @@
+apiVersion: v2
+name: helm-airports
+description: A Helm chart for Kubernetes
+type: application
+version: 0.1.0
+appVersion: "1.16.0"
+
+dependencies: 
+  - name: airports-api
+    version: "0.1.0"
+    repository: https://dinae1993.github.io/HelmAirportsAPI/charts
+  - name: airports-producer
+    version: "0.1.0"
+    repository: https://dinae1993.github.io/HelmAirportsProducer/charts
+  - name: airports-consumer
+    version: "0.1.0"
+    repository: https://dinae1993.github.io/HelmAirportsConsumer/charts
+  - name: airports-frontend
+    version: "0.1.0"
+    repository: https://dinae1993.github.io/HelmAirportsFrontend/charts
+  - name: airports-kafka
+    version: "0.1.0"
+    repository: https://dinae1993.github.io/HelmAirportsKafka/charts
+  - name: airports-postgres
+    version: "0.1.0"
+    repository: https://dinae1993.github.io/HelmAirportsPostgres/charts
+
