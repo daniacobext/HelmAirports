@@ -1,69 +1,33 @@
 apiVersion: v1
 entries:
-  airports-api:
+  helm-airports:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-13T11:38:09.0492201+03:00"
+    created: "2023-07-13T11:47:06.2646616+03:00"
+    dependencies:
+    - name: airports-api
+      repository: https://dinae1993.github.io/HelmAirportsAPI/charts
+      version: 0.1.0
+    - name: airports-producer
+      repository: https://dinae1993.github.io/HelmAirportsProducer/charts
+      version: 0.1.0
+    - name: airports-consumer
+      repository: https://dinae1993.github.io/HelmAirportsConsumer/charts
+      version: 0.1.0
+    - name: airports-frontend
+      repository: https://dinae1993.github.io/HelmAirportsFrontend/charts
+      version: 0.1.0
+    - name: airports-kafka
+      repository: https://dinae1993.github.io/HelmAirportsKafka/charts
+      version: 0.1.0
+    - name: airports-postgres
+      repository: https://dinae1993.github.io/HelmAirportsPostgres/charts
+      version: 0.1.0
     description: A Helm chart for Kubernetes
-    digest: a36eaba4e20cd90981d84bd8d2f0e858e0def07224221a47e0f7e53d031811b1
-    name: airports-api
+    digest: cfae7142539f37ac037cb2b3d70309830a750ae8606b8e82c1d55f8229fda721
+    name: helm-airports
     type: application
     urls:
-    - airports-api-0.1.0.tgz
+    - helm-airports-0.1.0.tgz
     version: 0.1.0
-  airports-consumer:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-07-13T11:38:09.0551389+03:00"
-    description: A Helm chart for Kubernetes
-    digest: be8c67dfc60fcad59407191877b6a756f4bdc93ae059e136dea960d686770bd4
-    name: airports-consumer
-    type: application
-    urls:
-    - airports-consumer-0.1.0.tgz
-    version: 0.1.0
-  airports-frontend:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-07-13T11:38:09.0611532+03:00"
-    description: A Helm chart for Kubernetes
-    digest: 2ac4e2bc26e16b6478a2bec237cb04df8719ba2c73f37c185d91329bdff569ad
-    name: airports-frontend
-    type: application
-    urls:
-    - airports-frontend-0.1.0.tgz
-    version: 0.1.0
-  airports-kafka:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-07-13T11:38:09.0661804+03:00"
-    description: A Helm chart for Kubernetes
-    digest: a35aebb303931dfbff269ab61ed27d3e13ae837a6ab9d8a7f02fae6ed29eb258
-    name: airports-kafka
-    type: application
-    urls:
-    - airports-kafka-0.1.0.tgz
-    version: 0.1.0
-  airports-postgres:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-07-13T11:38:09.0722515+03:00"
-    description: A Helm chart for Kubernetes
-    digest: d05fe06e7fa0cb42910208e51d3927bd3742c77947c46f06f5bb04a49e71e966
-    name: airports-postgres
-    type: application
-    urls:
-    - airports-postgres-0.1.0.tgz
-    version: 0.1.0
-  airports-producer:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-07-13T11:38:09.0767167+03:00"
-    description: A Helm chart for Kubernetes
-    digest: 8410d15f9cf8cbb9497f9b6ed33192b972d98306b5fbefc6c51855713e56dddf
-    name: airports-producer
-    type: application
-    urls:
-    - airports-producer-0.1.0.tgz
-    version: 0.1.0
-generated: "2023-07-13T11:38:09.0432692+03:00"
+generated: "2023-07-13T11:47:06.263657+03:00"
