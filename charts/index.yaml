@@ -1,33 +1,99 @@
 apiVersion: v1
 entries:
+  airports-api:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-08-11T11:56:43.447608+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 63a7c3d931541e01d17a0f48e020c327d87c928eddcb1d02108e7572a0c2f95c
+    name: airports-api
+    type: application
+    urls:
+    - airports-api-0.1.0.tgz
+    version: 0.1.0
+  airports-consumer:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-08-11T11:56:43.447608+03:00"
+    description: A Helm chart for Kubernetes
+    digest: e9f24420f32c4c6805e4c6e3bd6c499b251ecc70b4ed9b9d8122880c86a6bae5
+    name: airports-consumer
+    type: application
+    urls:
+    - airports-consumer-0.1.0.tgz
+    version: 0.1.0
+  airports-frontend:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-08-11T11:56:43.447608+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 57fd0b96ee5d3d0e7a947d6f2c4b0b9cd787dcb8aaea8ddf4c8396ec206fd6c7
+    name: airports-frontend
+    type: application
+    urls:
+    - airports-frontend-0.1.0.tgz
+    version: 0.1.0
+  airports-kafka:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-08-11T11:56:43.4481325+03:00"
+    description: A Helm chart for Kubernetes
+    digest: a35aebb303931dfbff269ab61ed27d3e13ae837a6ab9d8a7f02fae6ed29eb258
+    name: airports-kafka
+    type: application
+    urls:
+    - airports-kafka-0.1.0.tgz
+    version: 0.1.0
+  airports-postgres:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-08-11T11:56:43.4481325+03:00"
+    description: A Helm chart for Kubernetes
+    digest: d05fe06e7fa0cb42910208e51d3927bd3742c77947c46f06f5bb04a49e71e966
+    name: airports-postgres
+    type: application
+    urls:
+    - airports-postgres-0.1.0.tgz
+    version: 0.1.0
+  airports-producer:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-08-11T11:56:43.448659+03:00"
+    description: A Helm chart for Kubernetes
+    digest: d1439b42efb2dc6b46ae59f51da46d926cb01c36a2cc868fa9bc511e83cffb0e
+    name: airports-producer
+    type: application
+    urls:
+    - airports-producer-0.1.0.tgz
+    version: 0.1.0
   helm-airports:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-13T11:47:06.2646616+03:00"
+    created: "2023-08-11T11:56:43.4470768+03:00"
     dependencies:
     - name: airports-api
-      repository: https://dinae1993.github.io/HelmAirportsAPI/charts
+      repository: https://daniacobext.github.io/HelmAirportsAPI/charts
       version: 0.1.0
     - name: airports-producer
-      repository: https://dinae1993.github.io/HelmAirportsProducer/charts
+      repository: https://daniacobext.github.io/HelmAirportsProducer/charts
       version: 0.1.0
     - name: airports-consumer
-      repository: https://dinae1993.github.io/HelmAirportsConsumer/charts
+      repository: https://daniacobext.github.io/HelmAirportsConsumer/charts
       version: 0.1.0
     - name: airports-frontend
-      repository: https://dinae1993.github.io/HelmAirportsFrontend/charts
+      repository: https://daniacobext.github.io/HelmAirportsFrontend/charts
       version: 0.1.0
     - name: airports-kafka
-      repository: https://dinae1993.github.io/HelmAirportsKafka/charts
+      repository: https://daniacobext.github.io/HelmAirportsKafka/charts
       version: 0.1.0
     - name: airports-postgres
-      repository: https://dinae1993.github.io/HelmAirportsPostgres/charts
+      repository: https://daniacobext.github.io/HelmAirportsPostgres/charts
       version: 0.1.0
     description: A Helm chart for Kubernetes
-    digest: cfae7142539f37ac037cb2b3d70309830a750ae8606b8e82c1d55f8229fda721
+    digest: 4b8a9c3f9373f808e081bb6f0fafa688b801d95cb97fa4991673db3d76b98829
     name: helm-airports
     type: application
     urls:
     - helm-airports-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-13T11:47:06.263657+03:00"
+generated: "2023-08-11T11:56:43.4459938+03:00"

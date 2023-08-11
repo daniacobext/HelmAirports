@@ -8,20 +8,20 @@ appVersion: "1.16.0"
 dependencies: 
   - name: airports-api
     version: "0.1.0"
-    repository: https://dinae1993.github.io/HelmAirportsAPI/charts
+    repository: https://daniacobext.github.io/HelmAirportsAPI/charts
   - name: airports-producer
     version: "0.1.0"
-    repository: https://dinae1993.github.io/HelmAirportsProducer/charts
+    repository: https://daniacobext.github.io/HelmAirportsProducer/charts
   - name: airports-consumer
     version: "0.1.0"
-    repository: https://dinae1993.github.io/HelmAirportsConsumer/charts
+    repository: https://daniacobext.github.io/HelmAirportsConsumer/charts
   - name: airports-frontend
     version: "0.1.0"
-    repository: https://dinae1993.github.io/HelmAirportsFrontend/charts
+    repository: https://daniacobext.github.io/HelmAirportsFrontend/charts
   - name: airports-kafka
     version: "0.1.0"
-    repository: https://dinae1993.github.io/HelmAirportsKafka/charts
+    repository: https://daniacobext.github.io/HelmAirportsKafka/charts
   - name: airports-postgres
     version: "0.1.0"
-    repository: https://dinae1993.github.io/HelmAirportsPostgres/charts
+    repository: https://daniacobext.github.io/HelmAirportsPostgres/charts
 
