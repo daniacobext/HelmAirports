@@ -9,7 +9,7 @@ entries:
     name: airports-api
     type: application
     urls:
-    - charts/airports-api-0.1.0.tgz
+    - airports-api-0.1.0.tgz
     version: 0.1.0
   airports-consumer:
   - apiVersion: v2
@@ -20,7 +20,7 @@ entries:
     name: airports-consumer
     type: application
     urls:
-    - charts/airports-consumer-0.1.0.tgz
+    - airports-consumer-0.1.0.tgz
     version: 0.1.0
   airports-frontend:
   - apiVersion: v2
@@ -31,7 +31,7 @@ entries:
     name: airports-frontend
     type: application
     urls:
-    - charts/airports-frontend-0.1.0.tgz
+    - airports-frontend-0.1.0.tgz
     version: 0.1.0
   airports-kafka:
   - apiVersion: v2
@@ -42,7 +42,7 @@ entries:
     name: airports-kafka
     type: application
     urls:
-    - charts/airports-kafka-0.1.0.tgz
+    - airports-kafka-0.1.0.tgz
     version: 0.1.0
   airports-postgres:
   - apiVersion: v2
@@ -53,7 +53,7 @@ entries:
     name: airports-postgres
     type: application
     urls:
-    - charts/airports-postgres-0.1.0.tgz
+    - airports-postgres-0.1.0.tgz
     version: 0.1.0
   airports-producer:
   - apiVersion: v2
@@ -64,7 +64,7 @@ entries:
     name: airports-producer
     type: application
     urls:
-    - charts/airports-producer-0.1.0.tgz
+    - airports-producer-0.1.0.tgz
     version: 0.1.0
   helm-airports:
   - apiVersion: v2
